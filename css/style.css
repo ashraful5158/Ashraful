@@ -1,0 +1,81 @@
+/* =========================================== common css start ============================================================= */
+*{
+  padding: 0;
+  margin: 0;
+}
+.font_work{
+font-family: 'Work Sans', sans-serif;
+}
+.font_pop{
+  font-family: 'Poppins', sans-serif;
+}
+.font_l{
+
+  font-weight: 300;
+}
+.font_r{
+  font-weight: 400;
+}
+.font_m{
+  font-weight: 500;
+}
+.font_sb{
+  font-weight: 600;
+}
+.font_12{
+  font-size: 12px;
+}
+.font_14{
+  font-size: 14px;
+}
+.font_16{
+  font-size: 16px;
+}
+.font_18{
+  font-size: 18px;
+}
+.font_20{
+  font-size: 20px;
+}
+.font_32{
+  font-size: 32px;
+}
+.font_38{
+  font-size: 38px;
+}
+.font_48{
+  font-size: 48px;
+}
+ul,ol{
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.custom_btn{
+  background-color: #A53DFF;
+  padding: 14px 24px;
+  border-radius: 4px;
+}
+.custom_btn a{
+    color: #FFF
+  }
+/* =========================================== common css end ============================================================= */
+nav ul {
+  column-gap: 48px;
+}
+nav ul li:last-child{
+  margin-right: 24px;
+}
+nav ul li a{
+ color: #333333;
+}
+nav .navbar-brand span{
+  padding: 10px 20px;
+  background-color: #A53DFF;
+  border-radius: 50%;
+  color: #FFF;
+}
+
+  
