@@ -75,12 +75,7 @@ nav ul li:last-child{
 nav ul li a{
  color: #333333;
 }
-nav .navbar-brand span{
-  padding: 10px 20px;
-  background-color: #A53DFF;
-  border-radius: 50%;
-  color: #FFF;
-}
+
 
 
 
@@ -160,3 +155,40 @@ text-align: center;
     display: inline-block;
   }
   
+
+
+
+
+  .flex_d{
+    display: flex;
+    align-items: center;
+  }
+  .item {
+    column-gap: 13px;
+   
+  }
+  .item .custom_item{
+    background-color: #FFFFFF;
+   border-radius: 16px;
+    padding: 24px;
+    }
+  .item .custom_item h3{
+    margin-top: 32px;
+    color: #132238;
+    }
+  .item .custom_item p{
+    color: #556070;
+    }
+  .item .custom_item:hover{
+    box-shadow: 32px 32px 124px rgba(43, 56, 76, 0.1);
+    }
+  .item .custom_mrgn{
+    margin-top: 28px;
+    }
+  
+  .work_process{
+    padding: 160px 0px 140px 0px;
+  }
+  .work_process .process p{
+    width: 529px;
+  }
