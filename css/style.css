@@ -66,6 +66,13 @@ a{
     color: #FFF
   }
 /* =========================================== common css end ============================================================= */
+.navbar{
+  position: absolute;
+  width: 100%;
+  top: 65px;
+  transform: translateY(-50px);
+
+}
 nav ul {
   column-gap: 48px;
 }
@@ -118,7 +125,7 @@ text-align: center;
 
 
 #about{
-  background-color: #ECEEF1;
+  background-color: #F0F1F3;
 }
   
 #about .custom_banner{
@@ -126,8 +133,34 @@ text-align: center;
   border-radius: 16px;
   
 }
-#about .custom_banner .img{
+#about .custom_banner .about_img{
   padding: 112px 136px 148px 112px;
+}
+.about_img{
+  position: relative;
+}
+.about_icons{
+  position: absolute;
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 4px;
+  bottom: 111px;
+  left: 197px;
+  /* transform: translateY(-50%,-50%); */
+  
+}
+.about_icons i{
+ color: #A53DFF;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 4px;
+  transition: .4s;
+}
+.about_icons i:hover{
+  background-color: #A53DFF;
+  color: #FFFFFF;
 }
 #about .custom_banner .content h2{
   width:536px ;
@@ -191,4 +224,49 @@ text-align: center;
   }
   .work_process .process p{
     width: 529px;
+  }
+
+
+
+
+
+  .portfolio  {
+    background-color: #ECEEF1;
+  }
+  .portfolio .content{
+    text-align: center;
+  }
+  .portfolio .content h2{
+   padding: 100px 0px 24px 0px;
+   color: #132238;
+  }
+  .portfolio .content p{
+   width: 577px;
+   color: #87909D;
+   margin: 0 auto;
+   padding-bottom: 70px;
+  }
+  .portfolio .portfolio_images .main{
+    background-color: #fff;
+  }
+  .portfolio .portfolio_images .images_content{
+    padding: 32px;
+    /* background-color: #fff; */
+  }
+  .portfolio .portfolio_images .images_content h4{
+    padding: 4px 0px 12px 0px;
+  }
+  .portfolio .portfolio_images .images_content h5,h6{
+   color: #87909D;
+  }
+  .portfolio .portfolio_images .images_content a{
+   padding: 12px 24px;
+   border: 2px solid #A53DFF;
+   border-radius: 4px;
+  }
+  .portfolio .portfolio_images .images_content .case_icons {
+   margin-top: 20px;
+  }
+  .portfolio .custom_gap {
+   margin-top: 24px;
   }
