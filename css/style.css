@@ -247,11 +247,15 @@ text-align: center;
    padding-bottom: 70px;
   }
   .portfolio .portfolio_images .main{
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .portfolio .portfolio_images .images_content{
     padding: 32px;
-    /* background-color: #fff; */
+    background-color: #fff;
+  }
+  .portfolio .portfolio_images img {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
   }
   .portfolio .portfolio_images .images_content h4{
     padding: 4px 0px 12px 0px;
@@ -261,12 +265,52 @@ text-align: center;
   }
   .portfolio .portfolio_images .images_content a{
    padding: 12px 24px;
-   border: 2px solid #A53DFF;
+   border: 1px solid #A53DFF;
    border-radius: 4px;
   }
   .portfolio .portfolio_images .images_content .case_icons {
    margin-top: 20px;
   }
+  .portfolio .portfolio_images .images_content .case_icons a {
+   color: #A53DFF;
+  }
+  .portfolio .portfolio_images .images_content .case_icons i {
+   margin-left: 12px;
+  }
   .portfolio .custom_gap {
    margin-top: 24px;
+  }
+  .portfolio .custom_btn {
+    width: 100%;
+    display: inline;
+  margin: 0 auto;
+  }
+  .portfolio .extra {
+   
+    align-items: center;
+    text-align: center;
+    padding: 62px 0px 112px 0px;
+
+  }
+
+
+
+  .project_idea {
+    background-color:  #132238;
+    padding: 100px;
+  }
+  .project_idea .content {
+   text-align: center;
+  }
+  .project_idea .content h2{
+    width: 640px;
+    margin: 0 auto;
+    color: #FFF;
+  }
+  .project_idea .content .custom_btn{
+    margin-top: 32px;
+  }
+  .project_idea .content .custom_btn i{
+   color: #FFFFFF;
+   margin-left: 12px;
   }
