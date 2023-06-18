@@ -56,6 +56,9 @@ ul,ol{
   padding: 0;
   list-style: none;
 }
+address{
+  margin-bottom: 0;
+}
 a{
   text-decoration: none;
 }
@@ -379,5 +382,188 @@ text-align: center;
   display: flex;
   column-gap: 24px;
   }
+
+
+  .testimonial{
+    background-color: #ECEEF1;
+    padding-bottom: 100px;
+  }
+  .testimonial .title{
+    text-align: center;
+  }
+  .testimonial .title p{
+    width: 577px;
+    margin: auto;
+    color: #87909D;
+    padding: 24px 0px 70px 0px;
+  }
+  .testimonial .testimonial_message {
+    width: 872px;
+    margin: auto;
+    text-align: center;
+  }
+  /* .testimonial .testimonial_message h4,h5{
+    text-align: center;
+  } */
+
+
+
+
+  .contact{
+    background-color:#ECEEF1 ;
+    margin-bottom: 300px;
+  }
+  .contact__css{
+    background-color: #fff;
+    box-shadow: 0px 59px 124px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    padding: 88px;
+    position: relative;
+    bottom: -55px;
+  }
+  .contact__css .contact_item p{
+   width: 481px;
+   color: #87909D;
+  }
+  .contact__css .contact_item .contact_info{
+  display: flex;
+  background-color: #fff;
+  width: 336px;
+  padding: 24px;
+  margin-bottom: 12px;
+  transition: .4s;
+  border-radius: 10px;
+  align-items: center;
+  column-gap: 13px;
+  }
+  .contact__css .contact_item .contact_info:hover {
+    box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+    
+  }
+  .contact__css .contact_item .contact_info i{
+       color: #A53DFF;
+       width: 48px;
+       height: 48px;
+       text-align: center;
+       line-height: 48px;
+       border-radius: 4px;
+       background-color: #EDD8FF;
+       font-size: 24px;
+       transition: .4s;
+  }
+  .contact__css .contact_item .contact_info i:hover{
+       background-color: #A53DFF;
+       color: #FFF;
+      
+  }
+  .contact__css .contact_item .contact_info .contact_content a{
+    color: #132238;
+  }
+  .contact__css .contact_item .contact_icons {
+   margin-top: 35px;
+   }
+  .contact__css .contact_item .contact_icons i{
+    color: #A53DFF;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 4px;
+    transition: .4s;
+   }
+  .contact__css .contact_item .contact_icons i:hover{
+   background-color: #A53DFF;
+   color: #FFF;
+   }
+
+   .contact_form form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+   }
+   .contact_form {
+   margin-top: 50px;
+   }
+   .contact_form form input {
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #e6e8eb;
+   padding-bottom: 14px;
+   }
+   .contact_form textarea {
+   border: none;
+   outline: none;
+   resize: none;
+   border-bottom: 1px solid #e6e8eb;
+   /* padding-bottom: 14px; */
+   }
+   .contact_form textarea:focus {
+    border-bottom: 1px solid #A53DFF;
+   }
+   .contact_form textarea:focus::placeholder {
+    color: #A53DFF;
+   }
+   .contact_form form input:focus {
+   border-bottom: 1px solid #A53DFF;
+   
+   }
+   .contact_form form input:focus::placeholder {
+   color: #A53DFF;
+   
+   }
+   .contact_form form input::placeholder {
+   font-size: 18px;
+   font-weight: 400;
+   text-transform: capitalize;
+   line-height: 24px;
+   font-family: 'Work Sans', sans-serif;
+   }
+  .contact_box :first-child{
+   width: 40%;
+   margin-right: 24px;
+   }
+   .contact_box :last-child{
+   width: 54%;
+   }
+   .contact_form form button{
+    width: 141px;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    background-color: #A53DFF;
+    color: #FFF;
+    border-radius: 4px;
+   }
+
+   .contact footer{
+    padding: 208px 0px 98px 0px;
+    background-color: #2B384C;
+    /* height: 330px; */
+   }
+   .contact footer .main{
+   display: flex;
+   align-items: center;
+   
+   }
+   .contact footer .main .item_2 ul{
+   display: flex;
+   column-gap: 12px;
+   }
+   .contact footer .main .item_2{
+   margin: 0px 182px 0px 182px;
+   }
+   .contact footer .main .item_2 ul li{
+  color: #F0F1F3;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+   }
+   .contact footer .main .item_3 p{
+  color: #Fff;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+   }
+  
 
   
