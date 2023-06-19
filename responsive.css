@@ -1,0 +1,181 @@
+@media (min-width: 320px) and (max-width: 575px)
+ {
+  .myself .custom__css{
+    order: 2;
+  }
+  .myself .custom_css_img{
+    order: 1;
+  }
+  .navbar .navbar-nav li{
+     
+      width: 200px;
+      text-align: center;
+      border: 1px solid #A53DFF;
+      padding: 4px;
+      margin: auto;
+    
+  }
+  .navbar .navbar-nav li:nth-child(2){
+    border-top: none;
+  }
+  .navbar .navbar-nav li:nth-child(3){
+    border-top: none;
+  }
+  .navbar .navbar-nav li:nth-child(4){
+    border-top: none;
+  }
+  .navbar .navbar-nav li:nth-child(5){
+    border-top: none;
+  }
+  .navbar .custom_btn{
+    margin-left: 90px;
+  }
+  .myself .dp img {
+    width: 100%;
+    margin: auto;
+  }
+  .myself .intro h1 {
+      width: auto;
+  }
+  .myself .intro p {
+    width: auto;
+  }
+  .myself .main {
+   display: flex;
+   margin-top: 60px;
+   flex-direction: column;
+   row-gap: 2px;
+  }
+  #about .custom_banner .about_img {
+    padding: 0px;
+  }
+  .myself {
+    padding-bottom: 87px;
+  }
+  #about .custom_banner .about_img img{
+   width: 100%;
+  }
+  .about_icons {
+    bottom: -36px;
+    margin-left: 34px;
+    left: 0px;
+    box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+  }
+  #about .custom_banner .content {
+    margin-top: 110px;
+  }
+  #about .custom_banner .content h2{
+    width:auto ;
+    margin-bottom: 45px;
+  }
+  #about .custom_banner .content p{
+      width:auto ;
+      
+  }
+  .custom_btn2{
+   margin-left: 0px;
+   margin-top: 20px;
+   margin-bottom: 25px;
+    }
+    #about .custom_banner .content .custom_btn{
+    margin-top: 20px;
+  }
+  .work_process {
+      padding: 0px;
+      margin-top: 51px;
+  }
+  .work_process .process p{
+      width: auto;
+    }
+  .flex_d{
+      margin-bottom: 50px;
+  }
+  .item .custom_item {
+   
+    margin-top: 28px;
+  }
+  .portfolio .content p {
+    width: auto;
+    
+  }
+  .portfolio .portfolio_images .main{
+    margin-bottom: 35px;
+  }
+  .portfolio .extra {
+   padding: 30px 0px 80px 0px;
+  }
+  .project_idea {
+   padding: 18px;
+  }
+  .project_idea .content h2 {
+    width: auto;
+    margin: 0 auto;
+  }
+  .services .content_1 h3 {
+    margin-top: 45px;
+  }
+  .services .content_1 p {
+    width: auto;
+  }
+  .services .content_2 .item p {
+    width: auto;
+  }
+  .services .content_2 {
+    padding: 26px 0px;
+  }
+  .happy_client {
+    padding: 50px 0px;
+  }
+  .happy_client .content p {
+    width: auto;
+  }
+  .happy_client .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .happy_client .main img {
+  width: 70%;
+  margin-left: 45px;
+  }
+  .testimonial .title p {
+    width: auto;
+  }
+  .testimonial .testimonial_message {
+    width: auto;
+  }
+  .testimonial {
+  padding-bottom: 50px;
+  }
+  .contact__css {
+    padding: 31px;
+  }
+  .contact__css .contact_item p {
+  width: auto;
+  }
+  .contact__css .contact_item .contact_info {
+   width: 271px;
+  }
+  .contact__css .contact_item .contact_icons{
+    width: 266px;
+  }
+ .custom_mrgn_2{
+   margin-top: 50px;
+  }
+  .contact footer {
+    padding: 92px 0px 177px 0px;
+    
+  }
+  .contact footer .main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact footer .main .item_2 ul {
+    display: flex;
+    flex-direction: column;
+  
+  }
+    
+
+
+}
